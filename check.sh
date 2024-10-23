@@ -10,5 +10,5 @@ first_line=$(echo "$remote" | sed -n '1p')
 if [ -z "$first_line" ] || [[ "$first_line" == *"github.com:yandex-praktikum"* ]]; then
     echo "Упс. Кажется, вы не сделали Fork репозитория!"
 else
-    echo "Секретный ключ: practicum"
+    echo "Секретный ключ: practiCUM"
 fi
